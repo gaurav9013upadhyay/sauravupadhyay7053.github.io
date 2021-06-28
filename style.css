@@ -1,0 +1,239 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.hero{
+    
+    /* opacity: 1px; */
+    height:100vh;
+    width:100%;
+    background-image: url();
+    background-repeat:no-repeat ;
+    background-size:cover;
+    background-position: center; 
+    z-index: -1;
+    padding:10px;
+}
+nav{
+display:inline-block; 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{top:0px;
+    margin:0px;
+    /* background-color:#e1f5fe; */
+    font-family: fantasy;
+    font-weight: bold;
+    font-size:30px;
+    padding: 8px;
+    color:#0b0d0e;
+    text-align: center;
+    border:3px solid white;
+}
+span{
+    color:red;
+}
+span:hover{
+    color:aquamarine;
+    transform:scale(1.1);
+}
+
+.logo:hover{
+    border:2px solid rgb(125, 188, 199);
+    color:rgb(109, 230, 223);
+    transform:scale(1.1);
+}
+
+
+ul{ border:5px solid rgb(19, 17, 17);
+    /* background-color:#91c2c8b3; */
+    /* background-color: white;  */
+    display:flex;
+    margin:auto;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+
+
+li{
+
+    padding:20px;
+}
+a{ font-size:20px;
+     font-family:cursive;
+    font-weight:bolder;
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    border:3px solid rgb(91, 202, 236);
+    transform:scale(1.1);
+}
+.content{
+    /* transform:scale(1.1); */
+    position :absolute;
+    top:47%;
+    left:38%;
+    display:inline-block;
+    margin:auto;
+    font-family:cursive;
+    font-weight:bolder;
+    color:black;
+    Border:3px solid red;
+    border-top:4px solid rgb(76, 233, 222);
+    border-bottom: 4px solid rgb(128, 245, 18);
+    padding:15px;
+    /* box-shadow: 3px rgb(233, 247, 109); */
+}
+h1:hover{
+    color:rgb(159, 223, 185);
+    /* transform:scale(1.1);  */
+
+}
+.content h1 span:hover{
+    /* color:black; */
+    display:flex;
+    transform:scale(1.1);
+    color:rgb(84, 212, 230);
+    /* color:#0b0d0e; */
+
+}
+.content h3 span h2{
+    display:block;
+    color:rgb(12, 12, 1);
+
+}
+.content h3 span h2:hover{
+    color:rgb(97, 243, 13);
+    transform:scale(1.1); 
+    
+}
+form{
+    position :absolute;
+    top:84%;
+    left:50%;
+    display:block;
+
+
+}
+input {
+    background-color:white;
+    /* border:none; */
+    padding:2px;
+    
+}
+div input:first-child {
+    display:inline-block;
+    border:3px solid rgb(7, 0, 0);
+    padding:10px;
+    margin:2px;
+    outline:none;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+div input:first-child:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+    color:white;
+    background:rgb(17, 4, 4);
+    border:5px solid rgb(221, 54, 54);
+    marhgin:10px;
+
+
+}
+div input:last-child {
+    /* display:inline-block; */
+    position:absolute;
+    border:3px solid:black;
+    margin:2px;
+    color:black;
+    font-family: fantasy;
+    font-weight:bolder;
+    background-color: none;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    padding:10px;
+    
+}
+div input:last-child:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+    color:white;
+    background: black;
+    border:5px solid rgb(221, 54, 54);
+
+}
+button{
+    border:none;
+    color:rgb(246, 252, 252);
+    font-family:cursive;
+    font-weight: bold;
+    padding:3px;
+    margin:2px;
+    background: none;
+    border:3px solid rgb(238, 243, 243);
+    cursor:pointer;
+    background-color: rgb(56, 51, 51);
+    border-radius: 30px;
+    left:80%;
+}
+.content button:hover{
+ /* transform: scale(1.1); */
+    border:rgb(2, 22, 26);
+    background:none;
+    color:rgb(4, 5, 5);
+    border:2px solid black;
+}
+.share{
+    position:absolute;
+    left:90%;
+
+}
+.social p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color:white;
+    border:3px solid white;
+    padding:5px;
+    
+
+}
+.social p:hover{
+    background-color: rgb(245, 163, 12);
+    border-radius:10px;
+}
+.social {
+
+    margin:13px;
+    position:absolute;
+    left:90%;
+    top:5px;
+    right:0px;
+    color:black;
+    /* border:3px solid red; */
+    display:inline-block;
+    background-color:rgb(162, 243, 243);
+    /* background:transparent; */
+    border-radius:15px;
+}
+.social:hover{
+    transform:scale(1.1);
+    color:white;
+    border:3px solid rgb(10, 0, 0);
+    background-color:rgb(65, 255, 144);
+}
+.social a:hover{
+    border:3px solid lightgreen;
+    color:white;
+    background-color: black;
+    padding:1px;
+    border-radius:10px;
+
+}
+
